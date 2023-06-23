@@ -11,6 +11,8 @@
 		C624DD352A18250400C48B97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C624DD342A18250400C48B97 /* ContentView.swift */; };
 		C624DD372A18250500C48B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C624DD362A18250500C48B97 /* Assets.xcassets */; };
 		C624DD3B2A18250500C48B97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C624DD3A2A18250500C48B97 /* Preview Assets.xcassets */; };
+		C624DD422A18251500C48B97 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C624DD412A18251400C48B97 /* CardView.swift */; };
+		C624DD442A182BA800C48B97 /* AirportDataCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C624DD432A182BA800C48B97 /* AirportDataCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		C624DD362A18250500C48B97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C624DD382A18250500C48B97 /* CardDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CardDemo.entitlements; sourceTree = "<group>"; };
 		C624DD3A2A18250500C48B97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C624DD412A18251400C48B97 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C624DD432A182BA800C48B97 /* AirportDataCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportDataCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				C624DD362A18250500C48B97 /* Assets.xcassets */,
 				C624DD382A18250500C48B97 /* CardDemo.entitlements */,
 				C624DD392A18250500C48B97 /* Preview Content */,
+				C624DD412A18251400C48B97 /* CardView.swift */,
+				C624DD432A182BA800C48B97 /* AirportDataCard.swift */,
 			);
 			path = CardDemo;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C624DD352A18250400C48B97 /* ContentView.swift in Sources */,
+				C624DD442A182BA800C48B97 /* AirportDataCard.swift in Sources */,
+				C624DD422A18251500C48B97 /* CardView.swift in Sources */,
 				C624DD332A18250400C48B97 /* CardDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
